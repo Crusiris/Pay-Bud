@@ -8,6 +8,7 @@ import { PaymentsComponent } from './components/payments/payments.component';
 import { TicketComponent } from './components/ticket/ticket.component';
 import { SuccessfulPayComponent } from './components/successful-pay/successful-pay.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { ConfirmPaymentComponent } from './components/confirm-payment/confirm-payment.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     PaymentsComponent,
     TicketComponent,
     SuccessfulPayComponent,
-    NavBarComponent
+    NavBarComponent,
+    ConfirmPaymentComponent
   ],
   imports: [
     BrowserModule,

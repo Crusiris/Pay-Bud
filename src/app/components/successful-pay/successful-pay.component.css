@@ -21,12 +21,14 @@
    }
   
   .logo{
+   
      margin-top: 30%; 
      margin-bottom: 7%;  
-     left: 10.04%;
-     right: 74.02%;
-     top: 73.14%;
-     bottom: 15.69%;
+  }
+
+   .logo1{
+    width:114px;
+    height:114px;
   }
   .containe-texto{
       margin-bottom: 40%;
