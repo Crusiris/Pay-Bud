@@ -1,3 +1,91 @@
+.payments {
+    height: 100vh;
+    width: 100%;
+    background: #F1EBFB;
+}
+
 .contenoptions {
-    background: purple;
+    width: 100%;
+    height: 13em;
+    background: #ffffff;
+    border-radius: 0em 0em 0em 3.125em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/*enlaces de botones*/
+
+.pay {
+    background: #370F8C;
+    color: #ffffff;
+    z-index: 1;
+    padding: 0.5em 1.3em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.paid {
+    color: #370F8C;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+/*Container label*/
+
+.containerLabel {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/*Etiquetas de gastos*/
+
+.label {
+    width: 80%;
+    height: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5em;
+    background: #ffffff;
+    border-radius: 40px 0px 0px 40px;
+    -webkit-border-radius: 40px 0px 0px 40px;
+    -moz-border-radius: 40px 0px 0px 40px;
+    -ms-border-radius: 40px 0px 0px 40px;
+    -o-border-radius: 40px 0px 0px 40px;
+}
+
+.label p {
+    margin-top: 0.7em;
+    color: #712CE2;
+}
+
+.item {
+    margin-left: 0.5em;
+}
+
+.luz,
+.water {
+    width: 40px;
+    height: 70px;
+}
+
+.gas,
+.internet {
+    width: 50px;
+    height: 80px;
 }
