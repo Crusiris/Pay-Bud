@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { PaymentsComponent } from './components/payments/payments.component';
 import { TicketComponent } from './components/ticket/ticket.component';
 import { SuccessfulPayComponent } from './components/successful-pay/successful-pay.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SuccessfulPayComponent } from './components/successful-pay/successful-p
     HomeComponent,
     PaymentsComponent,
     TicketComponent,
-    SuccessfulPayComponent
+    SuccessfulPayComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
