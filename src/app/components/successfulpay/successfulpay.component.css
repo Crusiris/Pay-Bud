@@ -1,15 +1,14 @@
 /* pago exitoso*/
 
 .container-successful-pay{
-    background: #E5E5E5;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+  height: 100vh;
     width: 100%;
+    background: #F1EBFB;
+
   }
   
   .btn-go-accounts{
-     margin-top: 10%;
+     margin-top: 35%;
      color: #FCFBFE;
      text-align: center;
      border-radius: 29.5px;
@@ -17,19 +16,36 @@
      box-shadow: 0px 10px 14px rgba(113, 44, 226, 0.2);  
      line-height: 35px;
      padding: 10px 15px;
-      
+    margin-left: 35%;  
    }
   
   .logo{
    
-     margin-top: 30%; 
-     margin-bottom: 7%;  
+     margin-top: 50%; 
+     margin-bottom: 7%; 
+    margin-left: 40%;
   }
 
-   .logo1{
-    width:114px;
-    height:114px;
+   .logo img{
+    width:40%;
+    height:40%;
+ 
+
   }
-  .containe-texto{
-      margin-bottom: 40%;
-  }
+.successful-pay h2{
+  text-align: center;
+  
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+
+align-items: center;
+text-align: center;
+
+color: #333333;
+}
+.contaener-paragraph{
+  text-align: center;
+}
