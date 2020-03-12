@@ -1,0 +1,12 @@
+.footer {
+  position: absolute;
+  width: 31.605em;
+  height: 6.411em;
+  left: -5.125em;
+  top: 46em;
+  border-radius: 82% 55.36% 0% 0%;
+
+  background: #FFFFFF;
+  transform: rotate(-4.68deg);
+  /* border: .1em solid black; */
+  }
