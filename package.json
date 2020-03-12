@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
+    "@kamiazya/ngx-speech-recognition": "^0.4.3",
+    "artyom.js": "^1.0.6",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",

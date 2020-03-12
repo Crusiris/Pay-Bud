@@ -10,6 +10,7 @@ import { SuccessfulPayComponent } from './components/successfulpay/successfulpay
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
