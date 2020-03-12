@@ -16,23 +16,3 @@
     align-items: center;
     align-content: center;
 }
-
-.footer {
-    /* background-image: url(../../../assets/img/footer.svg);
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0; */
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
-    color: #370F8C;
-    text-align: center;
-    padding: 1em;
-}
-
-.footer p {
-    margin: 0;
-}
