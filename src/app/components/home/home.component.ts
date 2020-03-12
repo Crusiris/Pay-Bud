@@ -13,9 +13,10 @@ export class HomeComponent implements OnInit {
 constructor(private services: PaybudService, private router:Router) { 
   this.services.record('es_Es')
   .subscribe( e => {
-    if (e === 'Cuentas'){
+    console.log(e);
+    if (e === 'cuenta'){
       this.router.navigate(['payments']);
-    } else {console.log(`${e}`);}
+     } else {console.log(`Error no esta entrando al si`);}
   })
 
 }

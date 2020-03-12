@@ -12,7 +12,8 @@ export class PaymentsComponent implements OnInit {
   constructor(private services: PaybudService, private router:Router) { 
     this.services.record('es_Es')
     .subscribe( e => {
-      if (e === 'Pagar luz'){
+      console.log(e);
+      if (e === 'luz'){
         this.router.navigate(['ticket']);
         console.log('chao', e)
       } else {console.log(`${e} sino`);}

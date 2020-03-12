@@ -10,31 +10,17 @@ import {Router} from '@angular/router';
 
 export class SuccessfulPayComponent implements OnInit {
   comands:any[]=[]
-//   accounts: any []=[
-//   {
-//     name:'Agua', 
-//   },
-//   {
-//     name:'Luz',
-//   },
-//   {
-//   name:'Internet'
-//   },
-//   {
-//     name:'Gas'
-//   }
-
-// this.title = e];
 
   constructor(private services: PaybudService, private router:Router) {
     this.services.record('es_Es')
     .subscribe( e => {
-      if (e === 'ir a cuentas'){
+      console.log(e);
+      if (e === 'cuenta'){
         this.router.navigate(['payments']);
-        console.log('chao', e)
-      } else {console.log(`${e} sino`);}
+       } else {console.log(`Error no esta entrando al si`);}
     })
-   }
+  }
+
 
   ngOnInit() {
   }
