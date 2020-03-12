@@ -1,0 +1,163 @@
+.title-check {
+  position: absolute;
+/*   left: 31.47%;
+  right: 31.73%;
+  top: 32.26%;
+  bottom: 32.26%; */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+ /*  color: #F3F7F0; */
+ color: blue;
+/*   z-index: 4; */
+}
+
+.ticket {
+  position: fixed;
+  background-color: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.background-check {
+  position: fixed;
+  z-index: 2;
+  height: 75%;
+  top: 0%;
+/*   border: .1em solid black; */
+}
+
+.background-check svg {
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 47%;
+}
+
+.logo{
+  position: absolute;
+  z-index: 3;
+  left: 31%;
+  right: 56.27%;
+  top: 78.7%;
+  bottom: 14.53%;
+}
+
+.check-logo {
+  position: absolute;
+  z-index: 3;
+  width: 7.813em;
+  height: 2.813em;
+  left: 3em;
+  top: 11em;
+ }
+
+.check-footer {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.8em;
+  right: 3.5em;
+  bottom: 4.5em;
+  z-index: 3;
+  color: #4B1FA8;
+ }
+
+.barcode {
+  position: absolute;
+  width: 6em;
+  height: 2.1em;
+  right: 2em;
+  bottom: 15em;
+  z-index: 3;
+  background: url("ean-13-bar-code-clip-art.jpg");
+  transform: rotate(-90deg);
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding-top: 14.5em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  text-align: left;
+  width: 100%;
+}
+
+.content span:nth-child( 2n + 1 ) {
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.content span:first-child, .content p:nth-child(2){
+  font-size: 2.2em;
+  text-align: right;
+}
+
+.content span:nth-child(3), .content p:nth-child(4) {
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.content span:first-child {
+  margin-left: 3em;
+}
+
+.content span:nth-child(3) {
+  margin-left: 4.5em;
+}
+
+button {
+  /* Rectangle Copy */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* PRIMARIO */
+background: #370F8C;
+box-shadow: 0px 10px 14px rgba(113, 44, 226, 0.2);
+border-radius: 29.5px;
+/* Rectangle Copy */
+
+position: absolute;
+left: 27%;
+right: 0%;
+top: 88.5%;
+bottom: 0%;
+width: 165.5px;
+height: 59px;
+z-index: 4;
+/* PRIMARIO */
+background: #370F8C;
+box-shadow: 0px 10px 14px rgba(113, 44, 226, 0.2);
+border-radius: 29.5px;
+
+position: absolute;
+/* left: 24.77%;
+right: 23.87%;
+top: 33.9%;
+bottom: 33.9%; */
+
+/* font-family: Lato;
+font-style: normal; */
+font-weight: bold;
+font-size: 1 em;
+line-height: 1.188em;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FCFBFE;
+}

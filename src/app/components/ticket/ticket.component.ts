@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PaybudService } from '../../services/paybud.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-ticket',
@@ -7,7 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TicketComponent implements OnInit {
 
-  constructor() { }
+  title: 'Electricidad';
+
+  constructor(private services: PaybudService, private router:Router) {
+    this.services.record('es_Es')
+    .subscribe( e => {
+      if (e === 'pagar'){
+        this.router.navigate(['successfulPay']);
+        console.log('chao', e)
+      } else {console.log(`${e} sino`);}
+    })
+   }
+
 
   ngOnInit() {
   }
