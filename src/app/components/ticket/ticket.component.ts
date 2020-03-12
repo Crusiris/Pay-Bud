@@ -9,6 +9,8 @@ import {Router} from '@angular/router';
 })
 export class TicketComponent implements OnInit {
 
+  title: 'Electricidad';
+
   constructor(private services: PaybudService, private router:Router) {
     this.services.record('es_Es')
     .subscribe( e => {
@@ -18,6 +20,7 @@ export class TicketComponent implements OnInit {
       } else {console.log(`${e} sino`);}
     })
    }
+
 
   ngOnInit() {
   }
