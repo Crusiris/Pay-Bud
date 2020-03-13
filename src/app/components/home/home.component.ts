@@ -24,6 +24,3 @@ constructor(private services: PaybudService, private router:Router) {
   ngOnInit() {}
   
 }
-
-
-
