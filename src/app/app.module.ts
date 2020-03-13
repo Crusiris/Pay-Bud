@@ -11,7 +11,9 @@ import { PaymentsComponent } from './components/payments/payments.component';
 import { TicketComponent } from './components/ticket/ticket.component';
 import { SuccessfulPayComponent } from './components/successfulpay/successfulpay.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { FooterComponent } from './globals/footer/footer.component';
+import { FooterComponent } from '../app/components/footer/footer.component';
+
+// import { FooterComponent } from './globals/footer/footer.component';
 import { ConfirmPaymentComponent } from './components/confirm-payment/confirm-payment.component';
 
 @NgModule({

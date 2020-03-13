@@ -12,11 +12,11 @@ export class PaymentsComponent implements OnInit {
   constructor(private services: PaybudService, private router:Router) { 
     this.services.record('es_Es')
     .subscribe( e => {
-      console.log(e);
-      if (e === 'luz'){
+      if (e == 'agua' || e == 'luz' || e == 'internet' || e== 'gas'){
         this.router.navigate(['ticket']);
-        console.log('chao', e)
-      } else {console.log(`${e} sino`);}
+      }  else if(e == 'anterior' || e == 'atras' || e == 'atrás'){
+        this.router.navigate(['home']);
+      }else {console.log(`${e} sino`);}
     })
   }
 

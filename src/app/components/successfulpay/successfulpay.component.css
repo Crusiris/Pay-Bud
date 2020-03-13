@@ -1,51 +1,45 @@
-
-.container-successful-pay{
-margin: 0;
-padding: 0;
+.container-successful-pay {
+    margin: 0;
+    padding: 0;
     background: #F1EBFB;
-
-  }
-  
-  .btn-go-accounts{
-     margin-top: 35%;
-     color: #FCFBFE;
-     text-align: center;
-     border-radius: 29.5px;
-     background: #370F8C;
-     box-shadow: 0px 10px 14px rgba(113, 44, 226, 0.2);  
-     line-height: 35px;
-     padding: 10px 15px;
-    margin-left: 27%;  
-   }
-  
-  .logo{
-   
-     /* margin-top: 50%;  */
-     margin-bottom: 7%; 
-    margin-left: 40%;
-  }
-
-   .logo img{
-    margin-top: 95%;
-    width:40%;
-    height:40%;
- 
-
-  }
-.successful-pay h2{
-  text-align: center;
-  
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-
-align-items: center;
-text-align: center;
-
-color: #333333;
 }
-.contaener-paragraph{
-  text-align: center;
+
+.btn-go-accounts {
+    margin-top: 35%;
+    color: #FCFBFE;
+    text-align: center;
+    border-radius: 29.5px;
+    background: #370F8C;
+    box-shadow: 0px 10px 14px rgba(113, 44, 226, 0.2);
+    line-height: 35px;
+    padding: 10px 15px;
+    margin-left: 27%;
+}
+
+.logo {
+    /* margin-top: 50%;  */
+    margin-bottom: 7%;
+    margin-left: 40%;
+}
+
+.logo img {
+    margin-top: 95%;
+    width: 40%;
+    height: 40%;
+}
+
+.successful-pay h2 {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.contaener-paragraph {
+    text-align: center;
 }

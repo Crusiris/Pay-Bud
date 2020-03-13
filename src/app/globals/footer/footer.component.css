@@ -1,12 +1,19 @@
 .footer {
-  position: absolute;
-  width: 31.605em;
-  height: 6.411em;
-  left: -5.125em;
-  top: 46em;
-  border-radius: 82% 55.36% 0% 0%;
-
-  background: #FFFFFF;
-  transform: rotate(-4.68deg);
-  /* border: .1em solid black; */
-  }
+    position: fixed;
+    left: -5.125em;
+    border-radius: 82% 55.36% 0% 0%;
+    background: #FFFFFF;
+    transform: rotate(-2.68deg);
+    /*border: .1em solid black;
+    */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 3em;
+    -webkit-transform: rotate(-2.68deg);
+    -moz-transform: rotate(-2.68deg);
+    -ms-transform: rotate(-2.68deg);
+    -o-transform: rotate(-2.68deg);
+}

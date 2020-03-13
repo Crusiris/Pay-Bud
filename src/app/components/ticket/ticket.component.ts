@@ -15,9 +15,12 @@ export class TicketComponent implements OnInit {
     this.services.record('es_Es')
     .subscribe( e => {
       if (e === 'pagar'){
-        this.router.navigate(['successfulPay']);
+        this.router.navigate(['confirmPayment']);
         console.log('chao', e)
-      } else {console.log(`${e} sino`);}
+      }  else if(e == 'anterior' || e == 'atras' || e == 'atrás'){
+         this.router.navigate(['payments']);
+      }
+       else {console.log(`${e} sino`);}
     })
    }
 
