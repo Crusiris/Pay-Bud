@@ -14,7 +14,9 @@ const routes: Routes = [
   { path: 'ticket', component:TicketComponent},
   { path: 'confirmPayment', component: ConfirmPaymentComponent},
   { path: 'successfulPay', component:SuccessfulPayComponent},
-  { path: '*', component:HomeComponent},
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
+{ path: '**', component: HomeComponent },
+  
 
 
   
